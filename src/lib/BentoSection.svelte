@@ -44,7 +44,9 @@
                             {/if}</button
                         >
                         <button
-                            class="removeBtn"
+                            class="removeBtn {bentosAmount === 1
+                                ? 'notAllowed'
+                                : ''}"
                             aria-label="Remove bento"
                             onclick={() => {
                                 removeBento(parseInt(bento.slice(-1)));
@@ -141,5 +143,8 @@
     }
     .removeBtn:hover {
         background-color: var(--col-main-lighter);
+    }
+    .notAllowed {
+        cursor: not-allowed;
     }
 </style>
