@@ -1,0 +1,150 @@
+@import "@fontsource-variable/geist";
+
+:root {
+  /*Colors*/
+  /*Gray scale*/
+  --col-gray-0: #ffffff;
+  --col-gray-5: #F2F2F2;
+  --col-gray-10: #E6E6E6;
+  --col-gray-20: #CCCCCC;
+  --col-gray-30: #B3B3B3;
+  --col-gray-50: #808080;
+  --col-gray-80: #333333;
+  --col-gray-90: #1A1A1A;
+  --col-gray-95: #0d0d0d;
+
+
+  /*Themes*/
+  /*Orange*/
+  --col-orange: #FF9642;
+  --col-orange-light: #FFBE8A;
+  --col-orange-lighter: #FFE4CC;
+  --col-orange-dark: #943A00;
+  --col-orange-darker: #3D1B00;
+
+  /* Blue */
+  --col-blue: #229FFF;
+  --col-blue-light: #8ACCFF;
+  --col-blue-lighter: #CCE9FF;
+  --col-blue-dark: #005DA5;
+  --col-blue-darker: #002643;
+
+
+  /* UI Colors */
+  /* Base */
+  --col-fg: var(--col-gray-95);
+  --col-fg-tone-5: var(--col-gray-95);
+  --col-fg-tone-10: var(--col-gray-90);
+  --col-fg-tone-20: var(--col-gray-80);
+  --col-fg-tone-50: var(--col-gray-50);
+  --col-fg-tone-70: var(--col-gray-30);
+  --col-fg-tone-80: var(--col-gray-20);
+  --col-fg-tone-90: var(--col-gray-10);
+  --col-fg-tone-95: var(--col-gray-5);
+  --col-bg: var(--col-gray-0);
+
+  /* Main Color */
+  --col-main: var(--col-orange);
+  --col-main-light: var(--col-orange-light);
+  --col-main-lighter: var(--col-orange-lighter);
+  --col-main-dark: var(--col-orange-dark);
+  --col-main-darker: var(--col-orange-darker);
+
+  /* UI defaults */
+  --col-ui-success: #B1FF89;
+  --col-ui-error: #F47171;
+  --col-ui-warn: #FFCB69;
+
+
+  /* Default styles */
+  color: var(--col-fg);
+  background-color: var(--col-bg);
+  font-size: 16px;
+}
+
+* {
+  font-family: "Geist Variable";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Global Styles */
+.navBtn {
+  position: relative;
+  width: 3.75rem;
+  height: 3.75rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--col-bg);
+  border: 1px solid var(--col-fg);
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color ease-in-out 150ms;
+}
+
+.navBtn:hover {
+  background-color: var(--col-main-lighter);
+}
+
+
+.btn {
+  border-radius: 2rem;
+  height: 2.75rem;
+  display: inline-flex;
+  gap: 0.5rem;
+  background-color: var(--col-bg);
+  color: var(--col-fg);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  align-items: center;
+  padding: 0 1.25rem 0 0.75rem;
+  border: 1px solid var(--col-fg);
+}
+
+.btn:hover {
+  background-color: var(--col-main-lighter);
+}
+
+.btn.btn-primary {
+  background-color: var(--col-main);
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--col-main-light);
+}
+
+[data-widget-theme="dark"] {
+  color: var(--col-bg)
+}
+
+[data-widget-theme="light"] {
+  color: var(--col-fg)
+}
+
+/* Overrides */
+#overlay {
+  backdrop-filter: blur(3px);
+}
+
+.calendars-container {
+  --datepicker-container-zindex: 2;
+  --datepicker-calendar-range-selected-background: var(--col-main);
+  --datepicker-calendar-range-selected-color: var(--col-fg);
+  --datepicker-container-position: relative;
+}

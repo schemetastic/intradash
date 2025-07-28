@@ -1,0 +1,22 @@
+export const coworkersList = [
+    { coworkerName: "Elena Martínez", position: "Chief Executive Officer", img: "persons/person-10.webp" },
+    { coworkerName: "James Holloway", position: "Co-founder & Creative Director", img: "persons/person-9.webp" },
+    { coworkerName: "Jenna Adams", position: "Co-founder & Head of Strategy", img: "persons/person-1.webp" },
+    { coworkerName: "Sofia Romero", position: "Marketing Manager", img: "persons/person-4.webp" },
+    { coworkerName: "Lucas Nguyen", position: "Content Strategist", img: "persons/person-5.webp" },
+    { coworkerName: "Mei Chen", position: "SEO Specialist", img: "persons/person-6.webp" },
+    { coworkerName: "Nina Petrova", position: "UX/UI Designer", img: "persons/person-7.webp" },
+    { coworkerName: "Jared Thompson", position: "Front-End Developer", img: "persons/person-8.webp" },
+    { coworkerName: "Noah Clark", position: "Project Manager", img: "persons/person-3.webp" },
+    { coworkerName: "Mateo Ruiz", position: "Social Media Manager", img: "persons/person-2.webp" },
+    { coworkerName: "Isabelle Dubois", position: "Graphic Designer", img: "persons/person-11.webp" },
+    { coworkerName: "Aiden Walker", position: "Paid Ads Specialist", img: "persons/person-12.webp" },
+    { coworkerName: "Amir Parekh", position: "Email Marketing Lead", img: "persons/person-13.webp" },
+    { coworkerName: "Liam O’Connor", position: "Copywriter", img: "persons/person-14.webp" },
+    { coworkerName: "Zara Hussein", position: "Analytics Lead", img: "persons/person-15.webp" },
+    { coworkerName: "Johnny Miller", position: "Partnerships Manager", img: "persons/person-16.webp" },
+    { coworkerName: "David Moore", position: "Video Editor", img: "persons/person-17.webp" },
+    { coworkerName: "Hannah Lee", position: "Client Success Manager", img: "persons/person-18.webp" },
+    { coworkerName: "Isabelle Lewis", position: "Junior Designer", img: "persons/person-19.webp" },
+    { coworkerName: "Emily Tan", position: "HR & Culture Lead", img: "persons/person-20.webp" }
+]
