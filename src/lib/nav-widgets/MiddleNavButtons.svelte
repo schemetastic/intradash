@@ -37,6 +37,7 @@
         </button>
         <div class="line"></div>
         <button
+            aria-label="New bento"
             onclick={() => {
                 modals.renderChildren = "newBento";
                 modals.parentWindow = true;

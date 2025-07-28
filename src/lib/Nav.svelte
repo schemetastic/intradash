@@ -1,6 +1,5 @@
 <script>
     import Logo from "./Logo.svelte";
-    import { core } from "../stores.svelte";
     import MiddleNavButtons from "./nav-widgets/MiddleNavButtons.svelte";
     import ProfileDropdown from "./nav-widgets/ProfileDropdown.svelte";
 </script>
