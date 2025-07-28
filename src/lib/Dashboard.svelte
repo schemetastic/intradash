@@ -46,6 +46,7 @@
         font-weight: 600;
     }
     .widgetsGrid {
+        width: 100%;
         display: grid;
         grid-template-columns: 0.35fr repeat(2, 0.325fr);
         grid-template-rows: repeat(3, 1fr);

@@ -33,7 +33,7 @@
                     {#if isBentoMenuOpen}
                         <div class="bentoMenuBox">
                             {#if Object.keys(bentos).length}
-                                <h3>Select Bento</h3>
+                                <h3 class="bentoMenuTitle">Select Bento</h3>
                                 <ul class="bentoMenu">
                                     {#each Object.keys(bentos) as bento}
                                         <li>
@@ -165,14 +165,28 @@
     .bentoMenu {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0.25rem;
         list-style: none;
         padding: 0;
         width: 100%;
         margin: 0;
     }
+    .bentoMenuTitle {
+        font-size: 18px;
+        font-weight: 500;
+    }
     .bentoMenuItem {
         width: 100%;
+        padding: 0.5rem;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: var(--col-main-lighter);
+        cursor: pointer;
+        border: 1px solid var(--col-fg);
+        border-radius: 0.5rem;
+    }
+    .bentoMenuItem:hover {
+        background-color: var(--col-main-light);
     }
     .btn {
         width: 2.25rem;

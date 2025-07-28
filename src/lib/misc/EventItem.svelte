@@ -64,4 +64,16 @@
         font-size: 18px;
         font-weight: 600;
     }
+    .textContainer {
+        display: flex;
+        gap: 0.5rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .textContainer h3 {
+        font-size: 18px;
+    }
+    .textContainer p {
+        margin: 0;
+    }
 </style>

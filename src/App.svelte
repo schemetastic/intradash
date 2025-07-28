@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import { core, modals } from "./stores.svelte";
     import Nav from "./lib/Nav.svelte";
+    import Footer from "./lib/Footer.svelte";
     import Dashboard from "./lib/Dashboard.svelte";
     import BentoSection from "./lib/BentoSection.svelte";
     import ModalParent from "./lib/modals/ModalParent.svelte";
@@ -26,6 +27,7 @@
     {:else}
         <BentoSection />
     {/if}
+    <Footer />
 </main>
 
 {#if modals.parentWindow}

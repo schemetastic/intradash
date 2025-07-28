@@ -10,9 +10,7 @@
         <Logo size="2.25rem" />
         <h1>Intradash</h1>
     </figure>
-    {#if !core.isMobile}
-        <MiddleNavButtons />
-    {/if}
+    <MiddleNavButtons />
     <div class="navWidgetsContainer">
         <ProfileDropdown />
     </div>

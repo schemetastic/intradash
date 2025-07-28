@@ -67,6 +67,7 @@
                     </div>
                     <div class="menuGroup">
                         <button
+                            class="resetBtn"
                             onclick={() => {
                                 resetWidget();
                             }}>Reset Widget Space</button
@@ -180,5 +181,16 @@
     }
     .widgetContainer {
         height: 100%;
+    }
+    .resetBtn {
+        background-color: var(--col-main-lighter);
+        border: 1px solid var(--col-fg);
+        padding: 0.75rem;
+        font-size: 16px;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+    .resetBtn:hover {
+        background-color: var(--col-main-light);
     }
 </style>
